@@ -13,7 +13,7 @@ education_intrigue_1 = {
 	intrigue = 2
 	category = education
 	monthly_intrigue_lifestyle_xp_gain_mult = 0.1
-	domain_limit = -1
+	# domain_limit = -1 #MSD
 	
 	ruler_designer_cost = 0
 	
@@ -69,7 +69,7 @@ education_intrigue_3 = {
 	intrigue = 6
 	category = education
 	monthly_intrigue_lifestyle_xp_gain_mult = 0.3
-	domain_limit = 1
+	# domain_limit = 1 #MSD
 	
 	ruler_designer_cost = 40
 	
@@ -95,7 +95,7 @@ education_intrigue_4 = {
 	intrigue = 8
 	category = education
 	monthly_intrigue_lifestyle_xp_gain_mult = 0.4
-	domain_limit = 2
+	# domain_limit = 2 #MSD
 	
 	ruler_designer_cost = 80
 	
@@ -125,7 +125,7 @@ education_intrigue_5 = {
 	monthly_diplomacy_lifestyle_xp_gain_mult = 0.25
 	owned_hostile_scheme_success_chance_max_add = 10
 	flag = agent_acceptance_25
-	domain_limit = 3
+	# domain_limit = 3 #MSD
 	
 	ruler_designer_cost = 150
 	
@@ -154,7 +154,7 @@ education_diplomacy_1 = {
 	diplomacy = 2
 	category = education
 	monthly_diplomacy_lifestyle_xp_gain_mult = 0.1
-	domain_limit = -1
+	# domain_limit = -1 #MSD
 	
 	ruler_designer_cost = 0
 	
@@ -210,7 +210,7 @@ education_diplomacy_3 = {
 	diplomacy = 6
 	category = education
 	monthly_diplomacy_lifestyle_xp_gain_mult = 0.3
-	domain_limit = 1
+	# domain_limit = 1 #MSD
 	
 	ruler_designer_cost = 40
 	
@@ -236,7 +236,7 @@ education_diplomacy_4 = {
 	diplomacy = 8
 	category = education
 	monthly_diplomacy_lifestyle_xp_gain_mult = 0.4
-	domain_limit = 2
+	# domain_limit = 2 #MSD
 	
 	ruler_designer_cost = 80
 
@@ -276,7 +276,7 @@ education_diplomacy_5 = {
 	owned_personal_scheme_success_chance_max_add = 10
 	flag = offer_vassalisation_25
 	flag = better_war_hostages
-	domain_limit = 3
+	# domain_limit = 3 #MSD
 	
 	ruler_designer_cost = 150
 
@@ -314,7 +314,7 @@ education_stewardship_1 = { #Indulgent wastrel
 	stewardship = 2
 	category = education
 	monthly_stewardship_lifestyle_xp_gain_mult = 0.1
-	domain_limit = -1
+	# domain_limit = -1 #MSD
 	
 	ruler_designer_cost = 0
 	
@@ -370,7 +370,7 @@ education_stewardship_3 = {	#Fortune builder
 	stewardship = 6
 	category = education
 	monthly_stewardship_lifestyle_xp_gain_mult = 0.3
-	domain_limit = 1
+	# domain_limit = 1 #MSD
 	
 	ruler_designer_cost = 40
 	
@@ -396,7 +396,7 @@ education_stewardship_4 = {
 	stewardship = 8
 	category = education
 	monthly_stewardship_lifestyle_xp_gain_mult = 0.4
-	domain_limit = 2
+	# domain_limit = 2 #MSD
 	
 	culture_modifier = {
 		parameter = elephant_bonuses_for_rank_4_education
@@ -433,7 +433,7 @@ education_stewardship_5 = {
 	monthly_stewardship_lifestyle_xp_gain_mult = 0.5
 	monthly_learning_lifestyle_xp_gain_mult = 0.25
 	vassal_tax_mult = 0.25
-	domain_limit = 3
+	# domain_limit = 3 #MSD
 	
 	culture_modifier = {
 		parameter = elephant_bonuses_for_rank_4_education
@@ -470,7 +470,7 @@ education_martial_1 = {
 	martial = 2
 	category = education
 	monthly_martial_lifestyle_xp_gain_mult = 0.1
-	domain_limit = -1
+	# domain_limit = -1 #MSD
 	
 	culture_modifier = {
 		parameter = poorly_educated_leaders_distrusted
@@ -551,7 +551,7 @@ education_martial_3 = { #Skilled tactician
 	martial = 6
 	category = education
 	monthly_martial_lifestyle_xp_gain_mult = 0.3
-	domain_limit = 1
+	# domain_limit = 1 #MSD
 	
 	culture_modifier = {
 		parameter = prowess_from_martial_education
@@ -589,7 +589,7 @@ education_martial_4 = { #Brilliant strategist
 	martial = 8
 	category = education
 	monthly_martial_lifestyle_xp_gain_mult = 0.4
-	domain_limit = 2
+	# domain_limit = 2 #MSD
 	
 	culture_modifier = {
 		parameter = prowess_from_martial_education
@@ -639,7 +639,7 @@ education_martial_5 = {
 	monthly_stewardship_lifestyle_xp_gain_mult = 0.25
 	army_siege_value_mult = 0.5
 	movement_speed = 0.2
-	domain_limit = 3
+	# domain_limit = 3 #MSD
 	
 	culture_modifier = {
 		parameter = prowess_from_martial_education
@@ -688,7 +688,7 @@ education_learning_1 = {
 	learning = 2
 	category = education
 	monthly_learning_lifestyle_xp_gain_mult = 0.1
-	domain_limit = -1
+	# domain_limit = -1 #MSD
 	
 	culture_modifier = {
 		parameter = poorly_educated_leaders_distrusted
@@ -776,7 +776,7 @@ education_learning_3 = {
 	learning = 6
 	category = education
 	monthly_learning_lifestyle_xp_gain_mult = 0.3
-	domain_limit = 1
+	# domain_limit = 1 #MSD
 	
 	culture_modifier = {
 		parameter = prowess_from_religious_traits
@@ -818,7 +818,7 @@ education_learning_4 = {
 	learning = 8
 	category = education
 	monthly_learning_lifestyle_xp_gain_mult = 0.4
-	domain_limit = 2
+	# domain_limit = 2 #MSD
 	
 	culture_modifier = {
 		parameter = prowess_from_religious_traits
@@ -874,7 +874,7 @@ education_learning_5 = {
 	monthly_intrigue_lifestyle_xp_gain_mult = 0.25
 	development_growth = 0.1
 	county_fertility_growth_mult = small_county_fertility_growth_gain
-	domain_limit = 3
+	# domain_limit = 3 #MSD
 	
 	culture_modifier = {
 		parameter = prowess_from_religious_traits
@@ -974,7 +974,7 @@ family_first = {
 	dynasty_house_opinion = 10
 	close_relative_opinion = 15
 	stress_loss_mult = 0.2
-	domain_limit = 1
+	# domain_limit = 1 #MSD
 	
 	ruler_designer_cost = 50
 
@@ -1854,7 +1854,7 @@ theologian = {
 	
 	learning = 3
 	monthly_piety_gain_mult = 0.2
-	domain_limit = 1
+	# domain_limit = 1 #MSD
 	
 	ruler_designer_cost = 50
 
