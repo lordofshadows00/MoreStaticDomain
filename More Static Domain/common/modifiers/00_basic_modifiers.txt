@@ -72,7 +72,7 @@ count_modifier = {
 }
 
 duke_modifier = {
-	domain_limit = 2
+	domain_limit = 3 #MSD
 	knight_limit = 2
 	vassal_limit = 20
 	tax_slot_add = 1
@@ -82,7 +82,7 @@ duke_modifier = {
 }
 
 king_modifier = {
-	domain_limit = 3
+	domain_limit = 4 #MSD
 	knight_limit = 3
 	vassal_limit = 40
 	accolades = 1
@@ -95,7 +95,7 @@ king_modifier = {
 }
 
 emperor_modifier = {
-	domain_limit = 4
+	domain_limit = 5 #MSD
 	knight_limit = 4
 	vassal_limit = 60
 	ai_amenity_target_baseline = 0.4
@@ -108,7 +108,7 @@ emperor_modifier = {
 }
 
 hegemon_modifier = {
-	domain_limit = 5
+	domain_limit = 6 #MSD
 	knight_limit = 9
 	vassal_limit = 80
 	ai_amenity_target_baseline = 0.4
