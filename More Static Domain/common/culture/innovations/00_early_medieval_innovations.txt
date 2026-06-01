@@ -257,6 +257,11 @@ innovation_hereditary_rule = {
 
 	unlock_law = partition_succession_law
 
+	#MSD
+	character_modifier = {
+		domain_limit = 1
+	}
+
 	flag = global_regular
 	flag = early_medieval_era_regular
 	
