@@ -1,0 +1,47 @@
+﻿absolute_control_perk = {
+	lifestyle = martial_lifestyle
+	tree = authority
+	position = { 1 4 }
+	icon = node_martial
+
+	parent = soldiers_of_lesser_fortune_perk
+	parent = prepared_conscription_perk
+	
+	#MSD	
+	# government_character_modifier = {
+	# 	flag = government_uses_domain_limit #True for governments that do not use domain_limit_max or that do not hold _any_ land.
+	# 	domain_limit = 1
+	# }
+	
+	effect = {
+		if = {
+			limit = {
+				government_has_flag = government_is_landless_adventurer
+			}
+			custom_tooltip = {
+				text = adventurer_absolute_control_perk_effect
+			}
+		}
+		if = {
+			limit = {
+				NOT = { government_has_flag = government_is_landless_adventurer }
+			}
+			custom_description_no_bullet = { text = removes_directive_refusal_perk_effect }
+		}
+		if = {
+			limit = { government_has_flag = government_is_mandala }
+			custom_description_no_bullet = { text = add_mandala_radiance_perk_effect }
+		}
+		if = {
+			limit = {
+				NOT = { government_has_flag = government_is_landless_adventurer }
+			}
+			set_absolute_country_control = yes
+		}
+		else = {
+			hidden_effect = {
+				set_absolute_country_control = yes
+			}
+		}
+	}
+}

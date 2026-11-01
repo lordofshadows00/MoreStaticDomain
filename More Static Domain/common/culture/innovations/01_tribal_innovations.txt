@@ -1,0 +1,22 @@
+@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
+
+innovation_gavelkind = {
+	skill = diplomacy
+	group = culture_group_civic
+	culture_era = culture_era_tribal
+	icon = @administration_3
+
+	unlock_law = confederate_partition_succession_law
+	
+	#MSD
+	# character_modifier = {
+	# 	domain_limit = 1
+	# }
+
+	flag = global_regular
+	flag = tribal_era_regular
+	
+	ai_weight_for_fascination = {
+		value = 100
+	}
+}

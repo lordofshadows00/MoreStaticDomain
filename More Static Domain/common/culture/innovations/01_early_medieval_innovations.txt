@@ -1,0 +1,30 @@
+@majesty_02 = "gfx/interface/icons/culture_innovations/innovation_majesty_02.dds"
+
+innovation_hereditary_rule = {
+	skill = diplomacy
+	group = culture_group_civic
+	culture_era = culture_era_early_medieval
+	icon = @majesty_02
+
+	unlock_law = partition_succession_law
+
+	#MSD
+	character_modifier = {
+		domain_limit = 1
+	}
+
+	flag = global_regular
+	flag = early_medieval_era_regular
+	
+	ai_weight_for_fascination = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_early_medieval
+				}
+			}
+			multiply = 0
+		}
+	}
+}
