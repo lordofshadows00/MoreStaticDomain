@@ -1,4 +1,4 @@
-@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
+﻿@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
 
 innovation_gavelkind = {
 	skill = diplomacy

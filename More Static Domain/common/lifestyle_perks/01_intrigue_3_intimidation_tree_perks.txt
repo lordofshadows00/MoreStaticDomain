@@ -8,8 +8,18 @@
 	name = {
 		first_valid = {
 			triggered_desc = {
-				trigger = { has_government = landless_adventurer_government }
+				trigger = { 
+					exists = this # Has to be added to stop errors
+					has_government = landless_adventurer_government 
+				}
 				desc = fear_tax_perk_adventurer_name
+			}
+			triggered_desc = {
+				trigger = { 
+					exists = this # Has to be added to stop errors
+					government_has_flag = government_is_merchant 
+				}
+				desc = fear_tax_perk_merchant_name
 			}
 			desc = fear_tax_perk_name
 		}
@@ -17,6 +27,12 @@
 	
 	can_be_picked = {
 		always = yes
+	}
+
+	government_character_modifier = {
+		flag = government_is_republic
+		monthly_prestige_gain_per_dread_add = 0.05
+		trade_competitiveness_mult = 0.1
 	}
 
 	government_character_modifier = {
@@ -56,6 +72,10 @@
 	# }
 	
 	effect = {
+		if = {
+			limit = { government_has_flag = government_is_merchant }
+			custom_description_no_bullet = { text = fear_tax_perk_merchant_effect }
+		}
 		if = {
 			limit = {
 				government_has_flag = government_is_landless_adventurer
